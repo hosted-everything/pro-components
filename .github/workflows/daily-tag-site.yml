@@ -4,7 +4,7 @@ name: Tag Sites
 
 env:
   # Required, URL to upstream (fork base)
-  UPSTREAM_URL: "https://github.com/ant-design/ant-design.git"
+  UPSTREAM_URL: "https://github.com/ant-design/pro-components.git"
   # Required, token to authenticate bot, could use ${{ secrets.GITHUB_TOKEN }}
   # Over here, we use a PAT instead to authenticate workflow file changes.
   WORKFLOW_TOKEN: ${{ secrets.GITHUB_TOKEN }}
