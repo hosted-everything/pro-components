@@ -52,7 +52,6 @@ jobs:
   build-site:
     name: build site
     runs-on: ubuntu-latest
-    needs: setup
     steps:
       - uses: actions/checkout@v2
         with:
