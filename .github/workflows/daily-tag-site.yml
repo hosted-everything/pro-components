@@ -52,6 +52,7 @@ jobs:
   build-site:
     name: build site
     runs-on: ubuntu-latest
+    need: sync-upstream
     steps:
       - uses: actions/checkout@v2
         with:
